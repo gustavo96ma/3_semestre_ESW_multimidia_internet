@@ -1,0 +1,128 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+#cabecalho {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+}
+
+#logo {
+  max-width: 15%;
+}
+
+#nome-empresa {
+  padding: 0px 15px 0px 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#barra-navegacao {
+  display: flex;
+  padding: 0px 15px 0px 15px;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0px 7.5px 0px 7.5px;
+}
+
+header nav a:hover {
+  color: grey;
+}
+
+/* MAIN */
+#secao-principal {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#paragrafos-imagem {
+  display: block;
+}
+
+main img {
+  max-width: 50%;
+  float: right;
+  margin: 15px;
+}
+
+#titulo {
+  font-size: x-large;
+  margin-bottom: 15px;
+}
+
+#paragrafos {
+  text-align: justify;
+  font-size: large;
+  /* margin: 15px 0px; */
+}
+
+#paragrafos p {
+  margin: 15px 0px;
+}
+
+/* FOOTER */
+#rodape {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  justify-content: center;
+}
+
+#rodape-paragrafos {
+  margin: 15px;
+}
+
+#rodape-paragrafos p {
+  margin: 0px 0px 15px 0px;
+}
+
+#links {
+  margin: 15px;
+}
+
+#links a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0px 7.5px;
+}
+
+footer a:hover {
+  color: grey;
+}
+
+/* BOTAO */
+#botao {
+  position: fixed;
+  display: none;
+  z-index: 99;
+  padding: 15px;
+  bottom: 20px;
+  right: 30px;
+  outline: none;
+  border: none;
+  background-color: #1a1a1a;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 18;
+  transition: 1s;
+  border: 1px solid #fff;
+}
+
+#botao:hover {
+  background-color: grey;
+}
